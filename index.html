@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .question img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cuestionario</h1>
+
+    <div class="question">
+        <img src="/img/img1.png" alt="Imagen relacionada con la pregunta 1">
+        <p>El panteón de Roma hace referencia a:</p>
+        <div class="options">
+            <label><input type="radio" name="question1" value="a"> Espacio y Antiespacio</label>
+            <label><input type="radio" name="question1" value="b"> Espacio y Lugar</label>
+            <label><input type="radio" name="question1" value="c"> Espacio Interior</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <img src="img/img2.png" alt="Imagen relacionada con la pregunta 2">
+        <p>Es el que puede conectar distintos espacios mediante sistemas computarizados:</p>
+        <div class="options">
+            <label><input type="radio" name="question2" value="a"> Ciberespacio</label>
+            <label><input type="radio" name="question2" value="b"> Espacio y Lugar</label>
+            <label><input type="radio" name="question2" value="c"> Espacio y Antiespacio</label>
+        </div>
+    </div>
+</body>
+</html>
